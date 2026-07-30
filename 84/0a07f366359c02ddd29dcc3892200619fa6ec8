@@ -1,0 +1,79 @@
+.env.example
+  s_73578307169ce9::t_c77c71fa63d48d 1-20
+.gitignore
+  s_73578307169ce9::t_53e7d483042418 1-27
+.python-version
+  s_73578307169ce9::t_0282f93c1782e0 1
+data/checks.py
+  s_73578307169ce9::t_23afbd654c6f5d 1-324
+data/drug_profiles.json
+  s_73578307169ce9::t_a30a0042f2dda8 1-53
+data/inquiries.json
+  s_73578307169ce9::t_ed2e151ffbc2c7 1-260
+data/kb/adverse_event_pii_policy.md
+  s_73578307169ce9::t_aa10bd4990aaab 1-21
+data/kb/alvexora_pi.md
+  s_73578307169ce9::t_c90a3466053ce6 1-32
+data/kb/brevamistol_pi.md
+  s_73578307169ce9::t_aaba2474c40dca 1-30
+data/kb/cardioryn_pi.md
+  s_73578307169ce9::t_eb2719bea06f39 1-30
+data/kb/dermasolix_pi.md
+  s_73578307169ce9::t_4f532026c1db54 1-30
+data/kb/elmurestat_pi.md
+  s_73578307169ce9::t_20b2dd98865a18 1-28
+data/kb/medical_information_response_policy.md
+  s_73578307169ce9::t_3ef4f1c6d17675 1-21
+data/kb/refusal_policy.md
+  s_73578307169ce9::t_865112559b105e 1-19
+data/prompt.md
+  s_73578307169ce9::t_b02acec6cb3f43 1-41
+evals/dataset_medical_information_qa.json
+  s_73578307169ce9::t_2f79da91a9fc99 1-182
+evals/seed_medical_information_qa.py
+  s_73578307169ce9::t_80dc5dfc292326 1-65
+langgraph.json
+  s_73578307169ce9::t_96d77bc9425d21 1-10
+medical_information_qa_graph.py
+  s_73578307169ce9::t_ae00f34b642323 1-315
+notebooks/01_build.ipynb
+  s_73578307169ce9::t_ff211cf780d3e1 1-532
+notebooks/02_evaluate.ipynb
+  s_73578307169ce9::t_fad31d198c47f0 1-966
+notebooks/03_orchestrate.ipynb
+  s_73578307169ce9::t_eeb00f6d8a2aac 1-633
+notebooks/04_deep_agent.ipynb
+  s_73578307169ce9::t_3adf9eee31f3e8 1-1569
+notebooks/05_observe.ipynb
+  s_73578307169ce9::t_07dcdd7b8e33a0 1-349
+pyproject.toml
+  s_73578307169ce9::t_0c69f068192d3f 1-26
+utils/langsmith_rules.py
+  s_73578307169ce9::t_5518324c5e647a 1-90
+utils/models.py
+  s_73578307169ce9::t_d32928a37595da 1-31
+utils/prompts.py
+  s_73578307169ce9::t_c4003f9a59c85c 1-84
+utils/trace.py
+  s_73578307169ce9::t_29c0f6bb44e804 1-70
+README.md
+  s_73578307169ce9::t_5f59b11f7500c9 1-90
+uv.lock
+  s_73578307169ce9::t_69c5b75c16a4da 1-3777
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.16",
+  "base_commit_sha": "840a07f366359c02ddd29dcc3892200619fa6ec8",
+  "prompts": {},
+  "sessions": {
+    "s_73578307169ce9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "57b15d21-9328-411c-ab28-e6fd394b11f0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ariel Herrera <ariel.herrera@langchain.dev>"
+    }
+  }
+}
